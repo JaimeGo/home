@@ -1,0 +1,127 @@
+#map {
+  width: 100%;
+  height: 540px;
+  overflow: hidden;
+}
+
+.contact-bg {
+  padding: 100px 0;
+  background-color: rgb(221, 221, 221);
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  z-index: 1;
+  padding-left: 60px;
+  overflow: hidden;
+}
+
+.contact-box {
+  padding: 45px 30px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.contact-box input,
+.contact-box textarea {
+  width: 100%;
+}
+
+.contact-box button.submit {
+  border: 2px solid #22c8fc;
+  border-radius: 50px;
+  color: #606069;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+  padding: 15px 30px;
+  width: auto;
+  margin-bottom: 0px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background: #fff;
+}
+
+.contact-box button.submit:hover {
+  background: #22c8fc;
+  color: #fff;
+}
+
+.contact-box input[type="text"],
+input[type="email"],
+input[type="phone"],
+input[type="submit"],
+textarea {
+  padding: 15px 10px;
+  border: none;
+  margin-bottom: 20px;
+  color: #8b8b8b;
+  border-bottom: 1px solid #22c8fc;
+}
+
+.contact-box input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #606060;
+}
+
+.contact-box input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: #606060;
+}
+
+.contact-box textarea {
+  height: 150px;
+  resize: none;
+}
+
+.contact-box > h4 {
+  color: #373737;
+  font-weight: 400;
+  margin-bottom: 45px;
+  font-size: 25px;
+}
+
+.getIn-tuchBox {
+  position: absolute;
+  left: 40px;
+  top: 40px;
+  background-color: rgba(34, 200, 252, 0.75);
+  color: #fff;
+  padding: 20px;
+  margin-left: 15px;
+  border-radius: 5px;
+}
+
+.getIn-tuchBox p {
+  margin-bottom: 20px;
+  padding-left: 35px;
+  position: relative;
+}
+
+.getIn-tuchBox p a {
+  color: #fff;
+}
+
+.getIn-tuchBox h4 {
+  font-weight: 400;
+  margin-bottom: 25px;
+  font-size: 25px;
+}
+
+.getIn-tuchBox p i.fa {
+  font-size: 20px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+p.form-messege {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 0;
+  margin: 0;
+}
+p.success {
+  color: green;
+}
+p.error {
+  color: red;
+}

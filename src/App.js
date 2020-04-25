@@ -4,11 +4,11 @@ import "./App.css";
 import RightColumn from "./components/RightColumn";
 import LeftColumn from "./components/LeftColumn";
 import LeftBar from "./components/LeftBar";
-import PortfolioSection from "./components/LeftBar";
-import ServicesSection from "./components/LeftBar";
-import SkillSection from "./components/LeftBar";
-import Footer from "./components/LeftBar";
-import ContactSection from "./components/LeftBar";
+import PortfolioSection from "./components/PortfolioSection";
+import ServicesSection from "./components/ServicesSection";
+import SkillSection from "./components/SkillSection";
+import Footer from "./components/Footer";
+import ContactSection from "./components/ContactSection";
 import IntroductionSection from "./components/IntroductionSection";
 
 function App() {

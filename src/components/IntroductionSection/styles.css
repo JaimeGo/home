@@ -1,0 +1,186 @@
+/*********
+ HOME CSS
+*********/
+
+.slider-area {
+  background-image: url(../../assets/img/bg/home-bg.jpg);
+  background-size: cover;
+  background-position: center top;
+  height: 100vh;
+  z-index: 1;
+  position: relative;
+  color: #fff;
+  padding-left: 60px;
+}
+
+.slider-area:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+.gradient-bg {
+  position: relative;
+  z-index: 1;
+}
+
+.gradient-bg:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: rgba(0, 0, 0, 0) -webkit-linear-gradient(
+      left,
+      #00c9fd 0%,
+      #81ee8e 100%
+    ) repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0)
+    linear-gradient(to right, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+  z-index: -1;
+}
+
+.gradient-bg .slider-title h2 {
+  color: #fff;
+}
+
+.gradient-bg .cv-btn {
+  border: 2px solid #fff;
+}
+
+.gradient-bg .cv-btn:hover {
+  border: 2px solid #fff;
+  background-color: #fff;
+  color: #31ceea;
+}
+
+.slider {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit- flex;
+  display: -moz- flex;
+  display: -ms- flex;
+  display: -o- flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
+.slider-title h2 {
+  font-size: 65px;
+  color: #22c8fc;
+  font-weight: 700;
+}
+
+.slider-title h2 span {
+  font-size: 45px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.slider-title {
+  margin-bottom: 50px;
+}
+
+.slider-title h4 {
+}
+
+.slider-content h3 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.slider-content p {
+  font-size: 14px;
+}
+
+.cv-btn,
+.cv-btn:visited {
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  display: inline-block;
+  text-decoration: none;
+  border: 2px solid #22c8fc;
+  padding: 13px 29px;
+  border-radius: 50px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-weight: 700;
+  margin-top: 25px;
+}
+
+.cv-btn:hover {
+  text-decoration: none;
+  background-color: #22c8fc;
+  color: #fff;
+}
+
+.cv-btn i {
+  padding-right: 5px;
+}
+
+.btn-active {
+  background-color: #22c8fc;
+  color: #fff;
+  margin-top: 0px;
+  transition: all 0.3s ease 0s;
+}
+.btn-active:hover {
+  transform: translateY(-5px);
+  transition: all 0.3s ease 0s;
+}
+
+.experience {
+  position: absolute;
+  right: 15%;
+  bottom: 0;
+  text-align: center;
+  background-color: rgba(34, 200, 252, 0.8);
+  padding: 0px 39px;
+}
+
+.experience span {
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 150px;
+  display: block;
+  height: 120px;
+}
+
+.experience p {
+  font-size: 18px;
+}
+
+/*********
+ HOME 2 CSS
+*********/
+
+.home2.slider-area {
+  -webkit-transform: skew(0deg, -10deg);
+  transform: skew(0deg, -6deg);
+  padding-top: 200px;
+  padding-bottom: 100px;
+  margin-top: -100px;
+  background-image: url(../../assets/img/bg/skew-slider.jpg);
+  background-size: cover;
+  background-position: center top;
+}
+
+.home2.slider-area .container {
+  -webkit-transform: skew(0deg, 10deg);
+  transform: skew(0deg, 6deg);
+}
+
+.home2.slider-area .slider .experience {
+  bottom: -160px;
+  padding-bottom: 25px;
+}

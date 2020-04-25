@@ -1,13 +1,92 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/********************************************
+  01. DEFAULT CSS
+********************************************/
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700|Poppins:400,600,700");
+
+.alignleft {
+  float: left;
+  margin-right: 15px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.alignright {
+  float: right;
+  margin-left: 15px;
+}
+
+.aligncenter {
+  display: block;
+  margin: 0 auto 15px;
+}
+
+.white-bg {
+  background-color: #fff;
+}
+
+a {
+  display: inline-block;
+}
+
+a:focus {
+  outline: 0 solid;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 15px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+input:focus,
+textarea:focus,
+a:focus,
+button:focus {
+  outline: 0 solid;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #fff;
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: #fff;
+}
+
+.display-none {
+  display: none;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.gray-bg {
+  background-color: #f7f7f9;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+body {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  color: #606060;
+  font-size: 14px;
 }
